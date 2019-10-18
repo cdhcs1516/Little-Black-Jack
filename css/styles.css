@@ -1,0 +1,31 @@
+
+body {
+  text-align: center;
+  background-color: #011F3F;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Press Start 2P', cursive;
+  margin: 5% 10%;
+}
+
+/* classes for index.html */
+.bighead {
+  font-size: 3rem;
+  margin:  10%;
+  color: #FEF2BF;
+  line-height: 6rem;
+}
+
+/* classes for game.html */
+.head-sign {
+  font-size: 1.5rem;
+  color: #FEF2BF;
+}
+
+.point {
+  font-size: 1rem;
+  line-height: 2rem;
+  color: yellow;
+}
