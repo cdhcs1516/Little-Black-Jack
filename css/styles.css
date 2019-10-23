@@ -18,14 +18,65 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 6rem;
 }
 
-/* classes for game.html */
+/*------------ classes for game.html ---------------*/
+
+/* head-section */
+
+#head-section {
+  margin-top: 3%;
+}
+
 .head-sign {
   font-size: 1.5rem;
   color: #FEF2BF;
+}
+
+/* body-section */
+
+#body-section {
+  margin-top: 5%;
 }
 
 .point {
   font-size: 1rem;
   line-height: 2rem;
   color: yellow;
+}
+
+.btn-bet, .input-bet, .btn-action {
+  margin: 10% auto;
+}
+
+.bet-amount {
+  margin: 20% auto 10%;
+}
+
+.action-text {
+  margin-top: 30%;
+}
+
+
+.banker-card {
+  margin: 5% auto 10%;
+}
+
+.player-card {
+  margin: 10% auto 5%
+}
+
+.deck-card {
+  width: 15%;
+}
+
+.banker-sum {
+  margin-top: 30%;
+}
+
+.player-sum {
+  margin-top:50%;
+}
+
+/*---------- body section ----------*/
+#bottom-section {
+  margin-top: 5%;
 }

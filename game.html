@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="shortcut icon" href="imgs/favicon.ico">
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -22,7 +23,7 @@
       </div>
 
       <div class="col-md-6">
-        <h1 class="head-sign">Make yur Bet</h1>
+        <h1 class="head-sign">Make Your Bet</h1>
       </div>
 
       <div class="col-md-3">
@@ -30,21 +31,84 @@
       </div>
 
     </div>
-    </section>
+  </section>
 
   <section id="body-section">
     <div class="row">
 
       <div class="col-md-3">
-        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Input your bet">
+        <h6>Select your bet:</h6>
+
+        <div class="container">
+
+
+          <div class="row">
+            <div class="col-md-4">
+              <button class="btn btn-bet btn-block btn-light" type="button" name="btn100">100</button>
+            </div>
+            <div class="col-md-4">
+              <button class="btn btn-bet btn-block btn-light" type="button" name="btn200">200</button>
+            </div>
+            <div class="col-md-4">
+              <button class="btn btn-bet btn-block btn-light" type="button" name="btn500">500</button>
+            </div>
+          </div>
+
+          <div class="input-bet input-group mb-3">
+            <input type="text" id="individual-bet" class="form-control" placeholder="Input your bet">
+            <div class="input-group-append">
+              <button class="btn btn-dark" type="button" id="button-bet-submit">Bet</button>
+            </div>
+          </div>
+
+          <div>
+            <h6 class="bet-amount">Your Bet: 0.</h6>
+          </div>
+
+          <h6 class="action-text">Take your action.</h6>
+
+          <div class="row">
+            <div class="col-md-6">
+              <button class="btn btn-action btn-block btn-primary" type="button" name="button">Hit</button>
+            </div>
+
+            <div class="col-md-6">
+              <button class="btn btn-action btn-block btn-primary" type="button" name="button">Stand</button>
+            </div>
+          </div>
+
+        </div>
       </div>
 
       <div class="col-md-6">
-        <h4>This section is for displaying decks.</h4>
+
+        <div class="banker-card container">
+          <img class="deck-card" src="" >
+          <img class="deck-card" src="" >
+          <img class="deck-card" src="" >
+          <img class="deck-card" src="" >
+          <img class="deck-card" src="" >
+          <img class="deck-card" src="" >
+        </div>
+
+        <div class="player-card container">
+          <img class="deck-card" src="" >
+          <img class="deck-card" src="" >
+          <img class="deck-card" src="" >
+          <img class="deck-card" src="" >
+          <img class="deck-card" src="" >
+          <img class="deck-card" src="" >
+        </div>
       </div>
 
       <div class="col-md-3">
-        <h4>This section is for displaying points for decks and comparable results.</h4>
+        <div class="banker-sum container">
+          <h6 class="banker-number">Banker's total number: 0</h6>
+        </div>
+
+        <div class="player-sum container">
+          <h6 class="player-number">Player's total number: 0</h6>
+        </div>
       </div>
 
 
@@ -52,8 +116,11 @@
   </section>
 
   <section id="bottom-section">
+    <footer>Copyright@ Donghui Chen</footer>
+  </section>
 
-    </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/index.js" charset="utf-8"></script>
 
 </body>
 
