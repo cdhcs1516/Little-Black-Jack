@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 5%;
 }
 
-.point {
+.banker-point, .gamer-point {
   font-size: 1rem;
   line-height: 2rem;
   color: yellow;
@@ -74,6 +74,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .player-sum {
   margin-top:50%;
+}
+
+.next-round {
+  margin-top: 20%;
 }
 
 /*---------- body section ----------*/
