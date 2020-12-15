@@ -81,6 +81,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*---------- body section ----------*/
+.bottom-intro {
+  font-size: 0.5rem;
+  line-height: 1rem;
+  color: white;
+}
+}
 #bottom-section {
   margin-top: 5%;
 }
